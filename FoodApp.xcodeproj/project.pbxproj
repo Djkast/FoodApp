@@ -12,6 +12,9 @@
 		6BB432342245CCA4004F03BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB432322245CCA4004F03BB /* Main.storyboard */; };
 		6BB432362245CCA4004F03BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB432352245CCA4004F03BB /* Assets.xcassets */; };
 		6BB432392245CCA4004F03BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB432372245CCA4004F03BB /* LaunchScreen.storyboard */; };
+		6BB432412245DA8C004F03BB /* CVCFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB432402245DA8C004F03BB /* CVCFood.swift */; };
+		6BB7F089224D5DCA00B93B9B /* VCFoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F088224D5DCA00B93B9B /* VCFoodDetails.swift */; };
+		6BB7F08B224D5DEA00B93B9B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7F08A224D5DEA00B93B9B /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,10 @@
 		6BB432352245CCA4004F03BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BB432382245CCA4004F03BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BB4323A2245CCA4004F03BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB432402245DA8C004F03BB /* CVCFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCFood.swift; sourceTree = "<group>"; };
+		6BB7F087224D5DBC00B93B9B /* Foods.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Foods.plist; sourceTree = "<group>"; };
+		6BB7F088224D5DCA00B93B9B /* VCFoodDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCFoodDetails.swift; sourceTree = "<group>"; };
+		6BB7F08A224D5DEA00B93B9B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +64,12 @@
 				6BB4322E2245CCA4004F03BB /* AppDelegate.swift */,
 				6BB432302245CCA4004F03BB /* ViewController.swift */,
 				6BB432322245CCA4004F03BB /* Main.storyboard */,
+				6BB432402245DA8C004F03BB /* CVCFood.swift */,
+				6BB7F08A224D5DEA00B93B9B /* Food.swift */,
 				6BB432352245CCA4004F03BB /* Assets.xcassets */,
 				6BB432372245CCA4004F03BB /* LaunchScreen.storyboard */,
+				6BB7F088224D5DCA00B93B9B /* VCFoodDetails.swift */,
+				6BB7F087224D5DBC00B93B9B /* Foods.plist */,
 				6BB4323A2245CCA4004F03BB /* Info.plist */,
 			);
 			path = FoodApp;
@@ -136,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB432412245DA8C004F03BB /* CVCFood.swift in Sources */,
+				6BB7F089224D5DCA00B93B9B /* VCFoodDetails.swift in Sources */,
+				6BB7F08B224D5DEA00B93B9B /* Food.swift in Sources */,
 				6BB432312245CCA4004F03BB /* ViewController.swift in Sources */,
 				6BB4322F2245CCA4004F03BB /* AppDelegate.swift in Sources */,
 			);
